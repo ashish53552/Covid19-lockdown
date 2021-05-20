@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Lock-down Prediction System</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  
+  
+  <app-root></app-root>
+<!--  
+
+<div class="form-check form-switch" style = "margin-left:35% ; margin-top:20px;">
+  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+  <label style="margin-right: 25px;"class="form-check-label" for="flexSwitchCheckDefault">City-1</label>
+  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+  <label style="margin-right: 25px;" class="form-check-label" for="flexSwitchCheckDefault">City-2</label>
+  <input  class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+  <label style="margin-right: 25px;" class="form-check-label" for="flexSwitchCheckDefault">City-3</label>
+  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+  <label style="margin-right: 25px;" class="form-check-label" for="flexSwitchCheckDefault">City-4</label>
+  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+  <label style="margin-right: 25px;" class="form-check-label" for="flexSwitchCheckDefault">City-5</label>
+</div>
+
+
+  <div class = "submit-option" style = "margin-left:34%;">
+  <label for="Diffusion?" style ='padding-left:15px; padding-top: 15px;font-family: Verdana, Geneva, Tahoma, sans-serif;'>Diffusion</label>
+  <select   name="Diffusion?" id="diffusion">
+    <option value="1">Yes</option>
+    <option value="0">No</option>
+  </select>
+  
+  <label for="Weeks" style="padding-left: 15px;padding-top: 15px;font-family:Verdana, Geneva, Tahoma, sans-serif;">Number of weeks</label>
+
+  <select name="Weeks" id="weeks" style="margin-left:15px">
+    
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select>
+  
+  <button style="margin-left:38%;" class="btn btn-outline-success"  type="submit" id="submit_button">Click Me</button>
+
+  </div> -->
+
+</body>
+<!-- <script>
+ 
+ var results;
+  weeks=document.querySelector("#weeks");
+  diffusion=document.querySelector("#diffusion");
+  submit_button=document.querySelector("#submit_button");
+  submit_button.addEventListener("click",(event)=>{
+    console.log("cicked")
+    data={}
+    data.weeks=weeks.value;
+    data.diffusion=diffusion.value;
+    $.ajax({url:"http://localhost:3000/api",type:'POST',async:false, data:data,success: (response, status) => { //ajax call to post the data on the app.post()
+        console.log(status);
+        results=response;
+        // console.log(results);
+    },error:(xhr,status,error)=>{
+        console.log("Web request terminated with xhr:"+xhr+"status: "+status+ " error: "+error);
+    }});
+    console.log('v' , results);
+  });
+
+  
+</script> -->
+</html>
